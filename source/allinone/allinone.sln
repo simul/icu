@@ -1,5 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cal", "..\samples\cal\cal.vcxproj", "{F7659D77-09CF-4FE9-ACEE-927287AA9509}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cintltst", "..\test\cintltst\cintltst.vcxproj", "{3D1246AE-1B32-479B-BECA-AEFA97BE2321}"
@@ -37,15 +39,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "layoutex", "..\layoutex\lay
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "makeconv", "..\tools\makeconv\makeconv.vcxproj", "{F5AD9738-1A3D-4906-B9C4-A7D9CE33DC2C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "makedata", "..\data\makedata.vcxproj", "{D9DF7F2F-93B7-4810-B5CD-96F4F33C079B}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pkgdata", "..\tools\pkgdata\pkgdata.vcxproj", "{4C8454FE-81D3-4CA3-9927-29BA96F03DAC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stubdata", "..\stubdata\stubdata.vcxproj", "{203EC78A-0531-43F0-A636-285439BDE025}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "toolutil", "..\tools\toolutil\toolutil.vcxproj", "{6B231032-3CB5-4EED-9210-810D666A23A0}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uconv", "..\extra\uconv\uconv.vcxproj", "{DBA4088D-F6F9-4F8F-8820-082A4765C16C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "io", "..\io\io.vcxproj", "{C2B04507-2521-4801-BF0D-5FD79D6D518C}"
 EndProject
@@ -68,10 +66,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testplug", "..\tools\icuinfo\testplug.vcxproj", "{659D0C08-D4ED-4BF3-B02B-2D8D4B5A7A7A}"
 EndProject
 Global
-	GlobalSection(SubversionScc) = preSolution
-		Svn-Managed = True
-		Manager = AnkhSVN - Subversion Support for Visual Studio
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
 		Debug|x64 = Debug|x64
@@ -215,14 +209,6 @@ Global
 		{F5AD9738-1A3D-4906-B9C4-A7D9CE33DC2C}.Release|Win32.Build.0 = Release|Win32
 		{F5AD9738-1A3D-4906-B9C4-A7D9CE33DC2C}.Release|x64.ActiveCfg = Release|x64
 		{F5AD9738-1A3D-4906-B9C4-A7D9CE33DC2C}.Release|x64.Build.0 = Release|x64
-		{D9DF7F2F-93B7-4810-B5CD-96F4F33C079B}.Debug|Win32.ActiveCfg = Debug|Win32
-		{D9DF7F2F-93B7-4810-B5CD-96F4F33C079B}.Debug|Win32.Build.0 = Debug|Win32
-		{D9DF7F2F-93B7-4810-B5CD-96F4F33C079B}.Debug|x64.ActiveCfg = Debug|x64
-		{D9DF7F2F-93B7-4810-B5CD-96F4F33C079B}.Debug|x64.Build.0 = Debug|x64
-		{D9DF7F2F-93B7-4810-B5CD-96F4F33C079B}.Release|Win32.ActiveCfg = Release|Win32
-		{D9DF7F2F-93B7-4810-B5CD-96F4F33C079B}.Release|Win32.Build.0 = Release|Win32
-		{D9DF7F2F-93B7-4810-B5CD-96F4F33C079B}.Release|x64.ActiveCfg = Release|x64
-		{D9DF7F2F-93B7-4810-B5CD-96F4F33C079B}.Release|x64.Build.0 = Release|x64
 		{4C8454FE-81D3-4CA3-9927-29BA96F03DAC}.Debug|Win32.ActiveCfg = Debug|Win32
 		{4C8454FE-81D3-4CA3-9927-29BA96F03DAC}.Debug|Win32.Build.0 = Debug|Win32
 		{4C8454FE-81D3-4CA3-9927-29BA96F03DAC}.Debug|x64.ActiveCfg = Debug|x64
@@ -247,14 +233,6 @@ Global
 		{6B231032-3CB5-4EED-9210-810D666A23A0}.Release|Win32.Build.0 = Release|Win32
 		{6B231032-3CB5-4EED-9210-810D666A23A0}.Release|x64.ActiveCfg = Release|x64
 		{6B231032-3CB5-4EED-9210-810D666A23A0}.Release|x64.Build.0 = Release|x64
-		{DBA4088D-F6F9-4F8F-8820-082A4765C16C}.Debug|Win32.ActiveCfg = Debug|Win32
-		{DBA4088D-F6F9-4F8F-8820-082A4765C16C}.Debug|Win32.Build.0 = Debug|Win32
-		{DBA4088D-F6F9-4F8F-8820-082A4765C16C}.Debug|x64.ActiveCfg = Debug|x64
-		{DBA4088D-F6F9-4F8F-8820-082A4765C16C}.Debug|x64.Build.0 = Debug|x64
-		{DBA4088D-F6F9-4F8F-8820-082A4765C16C}.Release|Win32.ActiveCfg = Release|Win32
-		{DBA4088D-F6F9-4F8F-8820-082A4765C16C}.Release|Win32.Build.0 = Release|Win32
-		{DBA4088D-F6F9-4F8F-8820-082A4765C16C}.Release|x64.ActiveCfg = Release|x64
-		{DBA4088D-F6F9-4F8F-8820-082A4765C16C}.Release|x64.Build.0 = Release|x64
 		{C2B04507-2521-4801-BF0D-5FD79D6D518C}.Debug|Win32.ActiveCfg = Debug|Win32
 		{C2B04507-2521-4801-BF0D-5FD79D6D518C}.Debug|Win32.Build.0 = Debug|Win32
 		{C2B04507-2521-4801-BF0D-5FD79D6D518C}.Debug|x64.ActiveCfg = Debug|x64
@@ -338,5 +316,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
 	EndGlobalSection
 EndGlobal
