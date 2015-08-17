@@ -23,22 +23,22 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
@@ -117,6 +117,9 @@
       </DataExecutionPrevention>
       <ImportLibrary>..\..\lib\icuin.lib</ImportLibrary>
     </Link>
+    <Lib>
+      <OutputFile>..\..\lib\icuin.lib</OutputFile>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
@@ -161,6 +164,9 @@
       </DataExecutionPrevention>
       <ImportLibrary>..\..\lib\icuind.lib</ImportLibrary>
     </Link>
+    <Lib>
+      <OutputFile>..\..\lib\icuind.lib</OutputFile>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
@@ -200,6 +206,9 @@
       <ImportLibrary>..\..\lib64\icuin.lib</ImportLibrary>
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
+    <Lib>
+      <OutputFile>..\..\lib64\icuin.lib</OutputFile>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
@@ -242,6 +251,9 @@
       <ImportLibrary>..\..\lib64\icuind.lib</ImportLibrary>
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
+    <Lib>
+      <OutputFile>..\..\lib64\icuind.lib</OutputFile>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="region.cpp" />

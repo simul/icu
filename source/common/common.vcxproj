@@ -23,22 +23,22 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseOfMfc>false</UseOfMfc>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
@@ -114,6 +114,9 @@
       </DataExecutionPrevention>
       <ImportLibrary>..\..\lib\icuuc.lib</ImportLibrary>
     </Link>
+    <Lib>
+      <OutputFile>..\..\lib\icuuc.lib</OutputFile>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
@@ -155,6 +158,9 @@
       </DataExecutionPrevention>
       <ImportLibrary>..\..\lib\icuucd.lib</ImportLibrary>
     </Link>
+    <Lib>
+      <OutputFile>..\..\lib\icuucd.lib</OutputFile>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
@@ -191,6 +197,9 @@
       <ImportLibrary>..\..\lib64\icuuc.lib</ImportLibrary>
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
+    <Lib>
+      <OutputFile>..\..\lib64\icuuc.lib</OutputFile>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
@@ -230,6 +239,9 @@
       <ImportLibrary>..\..\lib64\icuucd.lib</ImportLibrary>
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
+    <Lib>
+      <OutputFile>..\..\lib64\icuucd.lib</OutputFile>
+    </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="filteredbrk.cpp" />
