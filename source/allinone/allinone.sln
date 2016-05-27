@@ -12,8 +12,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "layout", "..\layout\layout.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "layoutex", "..\layoutex\layoutex.vcxproj", "{37FC2C7F-1904-4811-8955-2F478830EAD1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "makedata", "..\data\makedata.vcxproj", "{D9DF7F2F-93B7-4810-B5CD-96F4F33C079B}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "stubdata", "..\stubdata\stubdata.vcxproj", "{203EC78A-0531-43F0-A636-285439BDE025}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "toolutil", "..\tools\toolutil\toolutil.vcxproj", "{6B231032-3CB5-4EED-9210-810D666A23A0}"
@@ -70,14 +68,6 @@ Global
 		{37FC2C7F-1904-4811-8955-2F478830EAD1}.Release|Win32.Build.0 = Release|Win32
 		{37FC2C7F-1904-4811-8955-2F478830EAD1}.Release|x64.ActiveCfg = Release|x64
 		{37FC2C7F-1904-4811-8955-2F478830EAD1}.Release|x64.Build.0 = Release|x64
-		{D9DF7F2F-93B7-4810-B5CD-96F4F33C079B}.Debug|Win32.ActiveCfg = Debug|Win32
-		{D9DF7F2F-93B7-4810-B5CD-96F4F33C079B}.Debug|Win32.Build.0 = Debug|Win32
-		{D9DF7F2F-93B7-4810-B5CD-96F4F33C079B}.Debug|x64.ActiveCfg = Debug|x64
-		{D9DF7F2F-93B7-4810-B5CD-96F4F33C079B}.Debug|x64.Build.0 = Debug|x64
-		{D9DF7F2F-93B7-4810-B5CD-96F4F33C079B}.Release|Win32.ActiveCfg = Release|Win32
-		{D9DF7F2F-93B7-4810-B5CD-96F4F33C079B}.Release|Win32.Build.0 = Release|Win32
-		{D9DF7F2F-93B7-4810-B5CD-96F4F33C079B}.Release|x64.ActiveCfg = Release|x64
-		{D9DF7F2F-93B7-4810-B5CD-96F4F33C079B}.Release|x64.Build.0 = Release|x64
 		{203EC78A-0531-43F0-A636-285439BDE025}.Debug|Win32.ActiveCfg = Debug|Win32
 		{203EC78A-0531-43F0-A636-285439BDE025}.Debug|Win32.Build.0 = Debug|Win32
 		{203EC78A-0531-43F0-A636-285439BDE025}.Debug|x64.ActiveCfg = Debug|x64
